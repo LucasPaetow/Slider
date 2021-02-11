@@ -138,6 +138,7 @@ function App() {
               index={index}
               parentRef={ref}
               changeActiveSlideTo={changeActiveSlideTo}
+              scrollMode={scrollMode}
             ></Slide>
           ))}
         </SlideList>
